@@ -43,9 +43,9 @@
 	///  TESTING SETTINGS
 	////////////////////
 	
-	$environment['BOTH']['TEST_CAT_ONEPAGE']=FALSE; // Set to TRUE to only scrape the first page of any given category
+	$environment['BOTH']['TEST_CAT_ONEPAGE']=TRUE; // Set to TRUE to only scrape the first page of any given category
 	$environment['BOTH']['TEST_CAT_SINGLE']=TRUE; // Set to TRUE to only scrape through a single category
-	$environment['BOTH']['TEST_APP_LIMIT']=0; // Set to a number ABOVE 0 to limit the number of apps that are scraped (0 to turn off)
+	$environment['BOTH']['TEST_APP_LIMIT']=5; // Set to a number ABOVE 0 to limit the number of apps that are scraped (0 to turn off)
 	
 	
 
@@ -75,7 +75,7 @@
 	///  DIRECTORY STRUCTURE
 	////////////////////
 	
-	$environment['LOCAL']['DIRECTORY_ROOT']='J:\\JStuff\\Work\\Clients\\Mikhael\\TuttoAndroid\\';
+	$environment['LOCAL']['DIRECTORY_ROOT']='/home/jbud/jdrive/jstuff/work/clients/Mikhael/TuttoAndroid/';
 	$environment['ONLINE']['DIRECTORY_ROOT']='http://www.tuttoandroid.net/';
 	$environment['LOCAL']['DIRECTORY_SYSTEM']=$environment['LOCAL']['DIRECTORY_ROOT'].'system';
 	$environment['ONLINE']['DIRECTORY_SYSTEM']=$environment['ONLINE']['DIRECTORY_ROOT'].'system';

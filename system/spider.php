@@ -29,7 +29,7 @@
 		
 		
 		public $db=NULL;
-		public $url_index='https://market.android.com';
+		public $url_index='https://play.google.com/store/apps';
 		public $url=NULL;
 		public $src=NULL;
 		public $XPath=NULL;
